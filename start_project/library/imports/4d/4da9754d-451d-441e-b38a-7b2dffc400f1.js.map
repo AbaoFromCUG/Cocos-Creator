@@ -1,0 +1,20 @@
+{
+  "version": 3,
+  "sources": [
+    "unknown"
+  ],
+  "names": [
+    "window",
+    "Global",
+    "userName",
+    "userIP",
+    "userScore",
+    "userMusic",
+    "userPlayFun"
+  ],
+  "mappings": ";;AAAAA,OAAOC,MAAP,GAAgB;AACZC,cAAU,EADE;AAEZC,YAAO,IAFK;AAGZC,eAAU,CAHE;AAIZC,eAAU,IAJE;AAKZC,iBAAY;AALA,CAAhB",
+  "file": "unknown",
+  "sourcesContent": [
+    "window.Global = {\r\n    userName: \"\",\r\n    userIP:null,\r\n    userScore:0,\r\n    userMusic:true,\r\n    userPlayFun:true,\r\n};"
+  ]
+}

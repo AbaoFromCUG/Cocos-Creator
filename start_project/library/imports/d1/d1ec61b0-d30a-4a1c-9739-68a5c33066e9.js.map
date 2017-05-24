@@ -1,0 +1,39 @@
+{
+  "version": 3,
+  "sources": [
+    "unknown"
+  ],
+  "names": [
+    "cc",
+    "Class",
+    "extends",
+    "Component",
+    "properties",
+    "pickR",
+    "onLoad",
+    "game",
+    "getPlayerDistance",
+    "playp",
+    "player",
+    "getPosition",
+    "pDistance",
+    "node",
+    "update",
+    "dt",
+    "opacityRatio",
+    "timer",
+    "starDuration",
+    "minOpacity",
+    "opacity",
+    "Math",
+    "floor",
+    "spawnNewStar",
+    "destroy",
+    "gainscore"
+  ],
+  "mappings": ";;AAAAA,GAAGC,KAAH,CAAS;AACLC,aAASF,GAAGG,SADP;;AAGLC,gBAAY;;AAERC,eAAM;;AAFE,KAHP;;AASL;AACAC,YAAQ,kBAAY;AAChB,aAAKC,IAAL,GAAU,IAAV;AACH,KAZI;;AAcLC,uBAAmB,6BAAU;AACzB,YAAIC,QAAM,KAAKF,IAAL,CAAUG,MAAV,CAAiBC,WAAjB,EAAV;AACA,eAAOX,GAAGY,SAAH,CAAa,KAAKC,IAAL,CAAUF,WAAV,EAAb,EAAqCF,KAArC,CAAP;AACH,KAjBI;;AAmBL;AACCK,YAAQ,gBAAUC,EAAV,EAAc;AAClB;AACD,YAAIC,eAAe,IAAI,KAAKT,IAAL,CAAUU,KAAV,GAAgB,KAAKV,IAAL,CAAUW,YAAjD;AACA,YAAIC,aAAa,EAAjB;AACA,aAAKN,IAAL,CAAUO,OAAV,GAAoBD,aAAaE,KAAKC,KAAL,CAAWN,gBAAgB,MAAMG,UAAtB,CAAX,CAAjC;AACD;AACC,YAAG,KAAKX,iBAAL,KAAyB,KAAKH,KAAjC,EAAuC;AACnC,iBAAKE,IAAL,CAAUgB,YAAV;AACA,iBAAKV,IAAL,CAAUW,OAAV;AACA,iBAAKjB,IAAL,CAAUkB,SAAV;AACH;AACH;AA/BG,CAAT",
+  "file": "unknown",
+  "sourcesContent": [
+    "cc.Class({\r\n    extends: cc.Component,\r\n\r\n    properties: {\r\n\r\n        pickR:0,\r\n        \r\n    },\r\n\r\n    // use this for initialization\r\n    onLoad: function () {\r\n        this.game=null;\r\n    },\r\n    \r\n    getPlayerDistance: function(){\r\n        var playp=this.game.player.getPosition();\r\n        return cc.pDistance(this.node.getPosition(),playp);\r\n    },\r\n\r\n    // called every frame, uncomment this function to activate update callback\r\n     update: function (dt) {\r\n         // 根据 Game 脚本中的计时器更新星星的透明度\r\n        var opacityRatio = 1 - this.game.timer/this.game.starDuration;\r\n        var minOpacity = 50;\r\n        this.node.opacity = minOpacity + Math.floor(opacityRatio * (255 - minOpacity));\r\n       //console.log(this.pickR,this.getPlayerDistance());\r\n        if(this.getPlayerDistance()<this.pickR){\r\n            this.game.spawnNewStar();\r\n            this.node.destroy();\r\n            this.game.gainscore();\r\n        }\r\n     },\r\n});\r\n"
+  ]
+}

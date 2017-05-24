@@ -1,0 +1,168 @@
+2017-05-21T13:04:02.123Z - normal: Load ~/.CocosCreator/settings.json
+2017-05-21T13:04:02.135Z - normal: checking language setting...
+2017-05-21T13:04:02.136Z - normal: Language: zh
+2017-05-21T13:04:04.049Z - success: protocol editor-framework registered
+2017-05-21T13:04:04.049Z - success: protocol app registered
+2017-05-21T13:04:04.049Z - success: protocol theme registered
+2017-05-21T13:04:04.049Z - success: protocol profile registered
+2017-05-21T13:04:04.050Z - success: protocol packages registered
+2017-05-21T13:04:04.050Z - success: protocol unpack registerred
+2017-05-21T13:04:04.050Z - success: protocol disable-commonjs registerred
+2017-05-21T13:04:04.295Z - normal: connected!
+2017-05-21T13:04:04.300Z - normal: Check project C:\Users\Abao\Desktop\start_project
+2017-05-21T13:04:04.303Z - normal: Initializing Cocos2d
+2017-05-21T13:04:04.591Z - normal: Initializing Asset Database
+2017-05-21T13:04:04.625Z - success: protocol uuid registerred
+2017-05-21T13:04:04.626Z - success: protocol db registerred
+2017-05-21T13:04:04.626Z - success: protocol thumbnail registerred
+2017-05-21T13:04:04.626Z - normal: Loading editor/builtin packages
+2017-05-21T13:04:04.779Z - success: assets loaded
+2017-05-21T13:04:04.782Z - success: builder loaded
+2017-05-21T13:04:04.787Z - success: hierarchy loaded
+2017-05-21T13:04:04.791Z - success: inspector loaded
+2017-05-21T13:04:04.792Z - success: keystore loaded
+2017-05-21T13:04:04.796Z - success: node-library loaded
+2017-05-21T13:04:04.799Z - success: preferences loaded
+2017-05-21T13:04:04.814Z - success: project-importer loaded
+2017-05-21T13:04:04.817Z - success: project-settings loaded
+2017-05-21T13:04:04.819Z - success: ui-kit loaded
+2017-05-21T13:04:04.821Z - success: ui-grid loaded
+2017-05-21T13:04:04.823Z - success: scene loaded
+2017-05-21T13:04:04.831Z - success: sprite-editor loaded
+2017-05-21T13:04:04.888Z - success: store loaded
+2017-05-21T13:04:04.893Z - success: timeline loaded
+2017-05-21T13:04:04.893Z - normal: Loading builtin packages
+2017-05-21T13:04:04.897Z - success: anysdk loaded
+2017-05-21T13:04:04.898Z - success: asset-db-debugger loaded
+2017-05-21T13:04:04.901Z - success: code-editor loaded
+2017-05-21T13:04:04.901Z - success: color-picker loaded
+2017-05-21T13:04:04.905Z - success: console loaded
+2017-05-21T13:04:04.907Z - success: package-manager loaded
+2017-05-21T13:04:04.909Z - success: tester loaded
+2017-05-21T13:04:04.911Z - success: ui-kit-preview-extra loaded
+2017-05-21T13:04:04.913Z - success: ui-kit-preview loaded
+2017-05-21T13:04:04.916Z - success: ui-tree loaded
+2017-05-21T13:04:04.981Z - normal: Initializing project C:\Users\Abao\Desktop\start_project
+2017-05-21T13:04:04.995Z - normal: Loading packages
+2017-05-21T13:04:04.999Z - normal: Watching packages
+2017-05-21T13:04:05.015Z - normal: Run Application
+2017-05-21T13:04:07.048Z - success: preview server running at http://localhost:7456
+2017-05-21T13:04:20.085Z - normal: 1.4.2
+2017-05-21T13:45:15.860Z - normal: Start building with options : {
+  "androidStudio": true,
+  "apiLevel": "android-19",
+  "appABIs": [
+    "armeabi-v7a"
+  ],
+  "appKey": "",
+  "appSecret": "",
+  "buildPath": "C:\\Users\\Abao\\Desktop\\start_project\\build",
+  "debug": false,
+  "dest": "C:\\Users\\Abao\\Desktop\\start_project\\build\\jsb-default",
+  "excludedModules": [],
+  "includeAnySDK": false,
+  "inlineSpriteFrames": true,
+  "mergeStartScene": false,
+  "oauthLoginServer": "",
+  "orientation": {
+    "landscapeLeft": true,
+    "landscapeRight": true,
+    "portrait": false,
+    "upsideDown": false
+  },
+  "packageName": "org.cocos2d.start_project",
+  "platform": "android",
+  "previewHeight": 720,
+  "previewWidth": 1280,
+  "privateKey": "",
+  "renderMode": "0",
+  "scenes": [
+    {
+      "url": "db://assets/scene/begin.fire",
+      "uuid": "c9e2ad6d-aeaa-4797-a809-d7205e361f6a"
+    },
+    {
+      "url": "db://assets/scene/game.fire",
+      "uuid": "3518cfa5-ed97-40ab-8146-b1d9694ae159"
+    },
+    {
+      "url": "db://assets/scene/gameover.fire",
+      "uuid": "45e2c785-9a03-49da-af5e-de79ef64aeff"
+    }
+  ],
+  "sourceMaps": false,
+  "startScene": "c9e2ad6d-aeaa-4797-a809-d7205e361f6a",
+  "template": "default",
+  "title": "signleDogs",
+  "useDebugKeystore": true,
+  "vsVersion": "auto",
+  "webOrientation": "auto",
+  "project": "C:\\Users\\Abao\\Desktop\\start_project",
+  "projectName": "signleDogs",
+  "runtimePath": "C:\\CocosCreator\\resources\\engine",
+  "debugBuildWorker": false
+}
+2017-05-21T13:45:15.864Z - normal: Building C:\Users\Abao\Desktop\start_project
+2017-05-21T13:45:15.864Z - normal: Destination C:\Users\Abao\Desktop\start_project\build\jsb-default
+2017-05-21T13:45:19.531Z - normal: Delete C:\Users\Abao\Desktop\start_project\build\jsb-default\res/**/*
+2017-05-21T13:45:19.533Z - normal: Delete C:\Users\Abao\Desktop\start_project\build\jsb-default\src/*/
+2017-05-21T13:45:19.684Z - normal: Generating main.js from C:\CocosCreator\resources\static\build-templates\shares\main.js
+2017-05-21T13:45:22.018Z - normal: Compiled project javascript file successfully
+2017-05-21T13:45:22.019Z - normal: Start building assets
+2017-05-21T13:45:22.019Z - normal: Start spawn build-worker
+2017-05-21T13:45:22.933Z - normal: Finish spawn build-worker
+2017-05-21T13:45:22.933Z - normal: Start init build-worker
+2017-05-21T13:45:24.132Z - normal: 1.4.2
+2017-05-21T13:45:24.216Z - normal: Finish init build-worker
+2017-05-21T13:45:24.217Z - normal: Start build-assets in worker
+2017-05-21T13:45:24.739Z - normal: Finish build-assets in worker
+2017-05-21T13:45:24.748Z - normal: Finish building assets
+2017-05-21T13:45:24.776Z - normal: Start building raw assets
+2017-05-21T13:45:24.777Z - normal: [build-raw-assets] Start copying C:\CocosCreator\resources\static\default-assets\image\default_sprite_splash.png to C:\Users\Abao\Desktop\start_project\build\jsb-default\res\raw-internal\image\default_sprite_splash.png
+2017-05-21T13:45:24.777Z - normal: [build-raw-assets] Start copying C:\CocosCreator\resources\static\default-assets\image\default_scrollbar_vertical_bg.png to C:\Users\Abao\Desktop\start_project\build\jsb-default\res\raw-internal\image\default_scrollbar_vertical_bg.png
+2017-05-21T13:45:24.778Z - normal: [build-raw-assets] Start copying C:\CocosCreator\resources\static\default-assets\image\default_btn_disabled.png to C:\Users\Abao\Desktop\start_project\build\jsb-default\res\raw-internal\image\default_btn_disabled.png
+2017-05-21T13:45:24.778Z - normal: [build-raw-assets] Start copying C:\CocosCreator\resources\static\default-assets\image\default_toggle_checkmark.png to C:\Users\Abao\Desktop\start_project\build\jsb-default\res\raw-internal\image\default_toggle_checkmark.png
+2017-05-21T13:45:24.778Z - normal: [build-raw-assets] Start copying C:\CocosCreator\resources\static\default-assets\particle\atom.plist to C:\Users\Abao\Desktop\start_project\build\jsb-default\res\raw-internal\particle\atom.plist
+2017-05-21T13:45:24.778Z - normal: [build-raw-assets] Start copying C:\CocosCreator\resources\static\default-assets\image\default_btn_pressed.png to C:\Users\Abao\Desktop\start_project\build\jsb-default\res\raw-internal\image\default_btn_pressed.png
+2017-05-21T13:45:24.778Z - normal: [build-raw-assets] Start copying C:\CocosCreator\resources\static\default-assets\image\default_toggle_normal.png to C:\Users\Abao\Desktop\start_project\build\jsb-default\res\raw-internal\image\default_toggle_normal.png
+2017-05-21T13:45:24.778Z - normal: [build-raw-assets] Start copying C:\CocosCreator\resources\static\default-assets\image\default_scrollbar_vertical.png to C:\Users\Abao\Desktop\start_project\build\jsb-default\res\raw-internal\image\default_scrollbar_vertical.png
+2017-05-21T13:45:24.779Z - normal: [build-raw-assets] Start copying C:\CocosCreator\resources\static\default-assets\image\default_panel.png to C:\Users\Abao\Desktop\start_project\build\jsb-default\res\raw-internal\image\default_panel.png
+2017-05-21T13:45:24.779Z - normal: [build-raw-assets] Start copying C:\CocosCreator\resources\static\default-assets\image\default_btn_normal.png to C:\Users\Abao\Desktop\start_project\build\jsb-default\res\raw-internal\image\default_btn_normal.png
+2017-05-21T13:45:24.780Z - normal: [build-raw-assets] Start copying C:\Users\Abao\Desktop\start_project\assets\textures\background.jpg to C:\Users\Abao\Desktop\start_project\build\jsb-default\res\raw-assets\textures\background.jpg
+2017-05-21T13:45:24.780Z - normal: [build-raw-assets] Start copying C:\Users\Abao\Desktop\start_project\assets\textures\3.0.png to C:\Users\Abao\Desktop\start_project\build\jsb-default\res\raw-assets\textures\3.0.png
+2017-05-21T13:45:24.780Z - normal: [build-raw-assets] Start copying C:\Users\Abao\Desktop\start_project\assets\textures\ground.png to C:\Users\Abao\Desktop\start_project\build\jsb-default\res\raw-assets\textures\ground.png
+2017-05-21T13:45:24.780Z - normal: [build-raw-assets] Start copying C:\Users\Abao\Desktop\start_project\assets\audio\score.mp3 to C:\Users\Abao\Desktop\start_project\build\jsb-default\res\raw-assets\audio\score.mp3
+2017-05-21T13:45:24.780Z - normal: [build-raw-assets] Start copying C:\Users\Abao\Desktop\start_project\assets\audio\jump.mp3 to C:\Users\Abao\Desktop\start_project\build\jsb-default\res\raw-assets\audio\jump.mp3
+2017-05-21T13:45:24.782Z - normal: [build-raw-assets] Start copying C:\Users\Abao\Desktop\start_project\assets\mikado_outline_shadow.png to C:\Users\Abao\Desktop\start_project\build\jsb-default\res\raw-assets\mikado_outline_shadow.png
+2017-05-21T13:45:24.782Z - normal: [build-raw-assets] Start copying C:\Users\Abao\Desktop\start_project\assets\textures\1.png to C:\Users\Abao\Desktop\start_project\build\jsb-default\res\raw-assets\textures\1.png
+2017-05-21T13:45:24.812Z - normal: [build-raw-assets] Finish copying C:\Users\Abao\Desktop\start_project\assets\textures\1.png to C:\Users\Abao\Desktop\start_project\build\jsb-default\res\raw-assets\textures\1.png
+2017-05-21T13:45:24.817Z - normal: [build-raw-assets] Finish copying C:\Users\Abao\Desktop\start_project\assets\mikado_outline_shadow.png to C:\Users\Abao\Desktop\start_project\build\jsb-default\res\raw-assets\mikado_outline_shadow.png
+2017-05-21T13:45:24.820Z - normal: [build-raw-assets] Finish copying C:\CocosCreator\resources\static\default-assets\image\default_sprite_splash.png to C:\Users\Abao\Desktop\start_project\build\jsb-default\res\raw-internal\image\default_sprite_splash.png
+2017-05-21T13:45:24.823Z - normal: [build-raw-assets] Finish copying C:\CocosCreator\resources\static\default-assets\image\default_scrollbar_vertical_bg.png to C:\Users\Abao\Desktop\start_project\build\jsb-default\res\raw-internal\image\default_scrollbar_vertical_bg.png
+2017-05-21T13:45:24.825Z - normal: [build-raw-assets] Finish copying C:\CocosCreator\resources\static\default-assets\image\default_btn_disabled.png to C:\Users\Abao\Desktop\start_project\build\jsb-default\res\raw-internal\image\default_btn_disabled.png
+2017-05-21T13:45:24.827Z - normal: [build-raw-assets] Finish copying C:\CocosCreator\resources\static\default-assets\image\default_toggle_checkmark.png to C:\Users\Abao\Desktop\start_project\build\jsb-default\res\raw-internal\image\default_toggle_checkmark.png
+2017-05-21T13:45:24.828Z - normal: [build-raw-assets] Finish copying C:\CocosCreator\resources\static\default-assets\image\default_btn_pressed.png to C:\Users\Abao\Desktop\start_project\build\jsb-default\res\raw-internal\image\default_btn_pressed.png
+2017-05-21T13:45:24.830Z - normal: [build-raw-assets] Finish copying C:\CocosCreator\resources\static\default-assets\image\default_toggle_normal.png to C:\Users\Abao\Desktop\start_project\build\jsb-default\res\raw-internal\image\default_toggle_normal.png
+2017-05-21T13:45:24.830Z - normal: [build-raw-assets] Finish copying C:\CocosCreator\resources\static\default-assets\particle\atom.plist to C:\Users\Abao\Desktop\start_project\build\jsb-default\res\raw-internal\particle\atom.plist
+2017-05-21T13:45:24.831Z - normal: [build-raw-assets] Finish copying C:\CocosCreator\resources\static\default-assets\image\default_scrollbar_vertical.png to C:\Users\Abao\Desktop\start_project\build\jsb-default\res\raw-internal\image\default_scrollbar_vertical.png
+2017-05-21T13:45:24.832Z - normal: [build-raw-assets] Finish copying C:\CocosCreator\resources\static\default-assets\image\default_panel.png to C:\Users\Abao\Desktop\start_project\build\jsb-default\res\raw-internal\image\default_panel.png
+2017-05-21T13:45:24.833Z - normal: [build-raw-assets] Finish copying C:\Users\Abao\Desktop\start_project\assets\textures\3.0.png to C:\Users\Abao\Desktop\start_project\build\jsb-default\res\raw-assets\textures\3.0.png
+2017-05-21T13:45:24.835Z - normal: [build-raw-assets] Finish copying C:\Users\Abao\Desktop\start_project\assets\textures\ground.png to C:\Users\Abao\Desktop\start_project\build\jsb-default\res\raw-assets\textures\ground.png
+2017-05-21T13:45:24.836Z - normal: [build-raw-assets] Finish copying C:\CocosCreator\resources\static\default-assets\image\default_btn_normal.png to C:\Users\Abao\Desktop\start_project\build\jsb-default\res\raw-internal\image\default_btn_normal.png
+2017-05-21T13:45:24.839Z - normal: [build-raw-assets] Finish copying C:\Users\Abao\Desktop\start_project\assets\textures\background.jpg to C:\Users\Abao\Desktop\start_project\build\jsb-default\res\raw-assets\textures\background.jpg
+2017-05-21T13:45:24.840Z - normal: [build-raw-assets] Finish copying C:\Users\Abao\Desktop\start_project\assets\audio\jump.mp3 to C:\Users\Abao\Desktop\start_project\build\jsb-default\res\raw-assets\audio\jump.mp3
+2017-05-21T13:45:24.846Z - normal: [build-raw-assets] Finish copying C:\Users\Abao\Desktop\start_project\assets\audio\score.mp3 to C:\Users\Abao\Desktop\start_project\build\jsb-default\res\raw-assets\audio\score.mp3
+2017-05-21T13:45:24.846Z - normal: Finish building raw assets
+2017-05-21T13:45:28.261Z - normal: Built to "C:\Users\Abao\Desktop\start_project\build\jsb-default" successfully
+2017-05-21T13:45:33.706Z - normal: Start to compile native project. Please wait...
+2017-05-21T13:45:33.706Z - normal: The log file path [ C:\Users\Abao\.CocosCreator\logs\native.log ]
+2017-05-21T13:46:14.044Z - failed: Error: Compile failed. The log file path [ C:\Users\Abao\.CocosCreator\logs\native.log ]
+    at ChildProcess.<anonymous> (C:\CocosCreator\resources\app.asar\editor\core\native-utils.js:1:18861)
+    at ChildProcess.<anonymous> (C:\CocosCreator\resources\app.asar\editor\core\native-utils.js:1:7424)
+    at emitTwo (events.js:106:13)
+    at ChildProcess.emit (events.js:191:7)
+    at maybeClose (internal/child_process.js:877:16)
+    at Process.ChildProcess._handle.onexit (internal/child_process.js:226:5)
+2017-05-21T13:47:01.282Z - normal: Start to compile native project. Please wait...
+2017-05-21T13:47:01.284Z - normal: The log file path [ C:\Users\Abao\.CocosCreator\logs\native.log ]
+2017-05-21T15:56:32.043Z - info: shutdown preview server

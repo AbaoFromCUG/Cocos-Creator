@@ -1,0 +1,33 @@
+{
+  "version": 3,
+  "sources": [
+    "unknown"
+  ],
+  "names": [
+    "cc",
+    "Class",
+    "extends",
+    "Component",
+    "properties",
+    "onLoad",
+    "node",
+    "on",
+    "Node",
+    "EventType",
+    "TOUCH_END",
+    "leftclick",
+    "onDestroy",
+    "off",
+    "event",
+    "Global",
+    "userPlayFun",
+    "player",
+    "accLeft",
+    "accRight"
+  ],
+  "mappings": ";;AAAAA,GAAGC,KAAH,CAAS;AACLC,aAASF,GAAGG,SADP;;AAGLC,gBAAY;AACR;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AAVQ,KAHP;;AAgBL;AACAC,YAAQ,kBAAY;AAChB;AACA,aAAKC,IAAL,CAAUC,EAAV,CAAaP,GAAGQ,IAAH,CAAQC,SAAR,CAAkBC,SAA/B,EAAyC,KAAKC,SAA9C;AACH,KApBI;AAqBLC,eAAW,qBAAU;AACjB,aAAKN,IAAL,CAAUO,GAAV,CAAcb,GAAGQ,IAAH,CAAQC,SAAR,CAAkBC,SAAhC,EAA0C,KAAKC,SAA/C;AACH,KAvBI;AAwBLA,eAAW,mBAASG,KAAT,EAAe;AACtB;AACA,YAAGC,OAAOC,WAAV,EAAsB;AAClB,iBAAKC,MAAL,CAAYC,OAAZ,GAAoB,IAApB;AACA,iBAAKD,MAAL,CAAYE,QAAZ,GAAqB,KAArB;AACH;AAEJ;;AA/BI,CAAT",
+  "file": "unknown",
+  "sourcesContent": [
+    "cc.Class({\r\n    extends: cc.Component,\r\n\r\n    properties: {\r\n        // foo: {\r\n        //    default: null,      // The default value will be used only when the component attaching\r\n        //                           to a node for the first time\r\n        //    url: cc.Texture2D,  // optional, default is typeof default\r\n        //    serializable: true, // optional, default is true\r\n        //    visible: true,      // optional, default is true\r\n        //    displayName: 'Foo', // optional\r\n        //    readonly: false,    // optional, default is false\r\n        // },\r\n        // ...\r\n    },\r\n\r\n    // use this for initialization\r\n    onLoad: function () {\r\n        //为事件监听注册\r\n        this.node.on(cc.Node.EventType.TOUCH_END,this.leftclick);\r\n    },\r\n    onDestroy: function(){\r\n        this.node.off(cc.Node.EventType.TOUCH_END,this.leftclick);\r\n    },\r\n    leftclick: function(event){\r\n        //cc.log(\"left clicked!\");\r\n        if(Global.userPlayFun){\r\n            this.player.accLeft=true;\r\n            this.player.accRight=false;\r\n        }\r\n        \r\n    },\r\n\r\n    // called every frame, uncomment this function to activate update callback\r\n    // update: function (dt) {\r\n\r\n    // },\r\n});\r\n"
+  ]
+}

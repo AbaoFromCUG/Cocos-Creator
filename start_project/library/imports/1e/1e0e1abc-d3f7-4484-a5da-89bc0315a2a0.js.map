@@ -1,0 +1,31 @@
+{
+  "version": 3,
+  "sources": [
+    "unknown"
+  ],
+  "names": [
+    "cc",
+    "Class",
+    "extends",
+    "Component",
+    "properties",
+    "onLoad",
+    "node",
+    "on",
+    "Node",
+    "EventType",
+    "TOUCH_END",
+    "click",
+    "onDestroy",
+    "off",
+    "event",
+    "log",
+    "director",
+    "loadScene"
+  ],
+  "mappings": ";;AAAAA,GAAGC,KAAH,CAAS;AACLC,aAASF,GAAGG,SADP;;AAGLC,gBAAY;AACR;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;;AAVQ,KAHP;;AAiBL;AACAC,YAAQ,kBAAY;AAChB,aAAKC,IAAL,CAAUC,EAAV,CAAaP,GAAGQ,IAAH,CAAQC,SAAR,CAAkBC,SAA/B,EAAyC,KAAKC,KAA9C;AACH,KApBI;AAqBLC,eAAW,qBAAU;AACjB,aAAKN,IAAL,CAAUO,GAAV,CAAcb,GAAGQ,IAAH,CAAQC,SAAR,CAAkBC,SAAhC,EAA0C,KAAKC,KAA/C;AACH,KAvBI;AAwBLA,WAAM,eAASG,KAAT,EAAe;AACjBd,WAAGe,GAAH,CAAO,uBAAP;AACAf,WAAGgB,QAAH,CAAYC,SAAZ,CAAsB,MAAtB;AACH;AACD;AACA;;AAEA;AA/BK,CAAT",
+  "file": "unknown",
+  "sourcesContent": [
+    "cc.Class({\r\n    extends: cc.Component,\r\n\r\n    properties: {\r\n        // foo: {\r\n        //    default: null,      // The default value will be used only when the component attaching\r\n        //                           to a node for the first time\r\n        //    url: cc.Texture2D,  // optional, default is typeof default\r\n        //    serializable: true, // optional, default is true\r\n        //    visible: true,      // optional, default is true\r\n        //    displayName: 'Foo', // optional\r\n        //    readonly: false,    // optional, default is false\r\n        // },\r\n        // ...\r\n        \r\n    },\r\n\r\n    // use this for initialization\r\n    onLoad: function () {\r\n        this.node.on(cc.Node.EventType.TOUCH_END,this.click);\r\n    },\r\n    onDestroy: function(){\r\n        this.node.off(cc.Node.EventType.TOUCH_END,this.click);\r\n    },\r\n    click:function(event){\r\n        cc.log(\"start button clicked!\");\r\n        cc.director.loadScene(\"game\");\r\n    }\r\n    // called every frame, uncomment this function to activate update callback\r\n    // update: function (dt) {\r\n\r\n    // },\r\n});\r\n"
+  ]
+}

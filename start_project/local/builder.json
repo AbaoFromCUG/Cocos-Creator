@@ -1,0 +1,20 @@
+{
+  "androidStudio": true,
+  "apiLevel": "android-19",
+  "appABIs": [
+    "armeabi-v7a"
+  ],
+  "buildPath": "./build",
+  "debug": false,
+  "keystoreAlias": "",
+  "keystoreAliasPassword": "",
+  "keystorePassword": "",
+  "keystorePath": "",
+  "platform": "android",
+  "previewHeight": "720",
+  "previewWidth": "1280",
+  "sourceMaps": false,
+  "template": "default",
+  "useDebugKeystore": true,
+  "vsVersion": "auto"
+}

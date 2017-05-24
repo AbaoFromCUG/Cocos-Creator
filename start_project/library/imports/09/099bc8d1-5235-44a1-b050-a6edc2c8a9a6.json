@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Cortana",
+    "texture": "1e61bf19-439a-4a87-9475-0f08a01537af",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      720,
+      405
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      720,
+      405
+    ]
+  }
+}

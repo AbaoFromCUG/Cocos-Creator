@@ -1,0 +1,32 @@
+{
+  "version": 3,
+  "sources": [
+    "unknown"
+  ],
+  "names": [
+    "cc",
+    "Class",
+    "extends",
+    "Component",
+    "properties",
+    "buttonclicked",
+    "event",
+    "log",
+    "director",
+    "loadScene",
+    "onLoad",
+    "a",
+    "node",
+    "on",
+    "Node",
+    "EventType",
+    "TOUCH_END",
+    "onDestroy",
+    "off"
+  ],
+  "mappings": ";;AAAAA,GAAGC,KAAH,CAAS;AACLC,aAASF,GAAGG,SADP;;AAGLC,gBAAY,EAHP;AAMLC,mBAAe,uBAASC,KAAT,EAAe;AAC1BN,WAAGO,GAAH,CAAO,iBAAP;AACAP,WAAGQ,QAAH,CAAYC,SAAZ,CAAsB,OAAtB;AACH,KATI;;AAWL;AACAC,YAAQ,kBAAY;AAChB,YAAIC,IAAE,EAAN;AACA;AACA,aAAKC,IAAL,CAAUC,EAAV,CAAab,GAAGc,IAAH,CAAQC,SAAR,CAAkBC,SAA/B,EAAyC,KAAKX,aAA9C;AACH,KAhBI;;AAkBLY,eAAW,qBAAU;AACjB,aAAKL,IAAL,CAAUM,GAAV,CAAclB,GAAGc,IAAH,CAAQC,SAAR,CAAkBC,SAAhC,EAA0C,KAAKX,aAA/C;AACH;AApBI,CAAT",
+  "file": "unknown",
+  "sourcesContent": [
+    "cc.Class({\r\n    extends: cc.Component,\r\n\r\n    properties: {\r\n        \r\n    },\r\n    buttonclicked: function(event){\r\n        cc.log(\"button clicked!\");\r\n        cc.director.loadScene(\"begin\");\r\n    },\r\n\r\n    // use this for initialization\r\n    onLoad: function () {\r\n        var a=12;\r\n        //为事件监听注册\r\n        this.node.on(cc.Node.EventType.TOUCH_END,this.buttonclicked);\r\n    },\r\n    \r\n    onDestroy: function(){\r\n        this.node.off(cc.Node.EventType.TOUCH_END,this.buttonclicked);\r\n    },\r\n    // called every frame, uncomment this function to activate update callback\r\n    // update: function (dt) {\r\n\r\n    // },\r\n});\r\n"
+  ]
+}

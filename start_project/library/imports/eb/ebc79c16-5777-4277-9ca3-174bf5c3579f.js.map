@@ -1,0 +1,36 @@
+{
+  "version": 3,
+  "sources": [
+    "unknown"
+  ],
+  "names": [
+    "cc",
+    "Class",
+    "extends",
+    "Component",
+    "properties",
+    "musicCheckBox",
+    "type",
+    "Toggle",
+    "default",
+    "modelLabel",
+    "Label",
+    "modelCheckBox",
+    "onLoad",
+    "self",
+    "isChecked",
+    "Global",
+    "userMusic",
+    "userPlayFun",
+    "node",
+    "on",
+    "event",
+    "log",
+    "string"
+  ],
+  "mappings": ";;AAAAA,GAAGC,KAAH,CAAS;AACLC,aAASF,GAAGG,SADP;;AAGLC,gBAAY;;AAER;AACAC,uBAAc;AACVC,kBAAKN,GAAGO,MADE;AAEVC,qBAAQ;AAFE,SAHN;AAORC,oBAAW;AACPH,kBAAKN,GAAGU,KADD;AAEPF,qBAAQ;AAFD,SAPH;AAWRG,uBAAc;AACVL,kBAAKN,GAAGO,MADE;AAEVC,qBAAQ;AAFE;AAXN,KAHP;;AAoBL;AACAI,YAAQ,kBAAY;AAChB,YAAIC,OAAK,IAAT;AACAA,aAAKR,aAAL,CAAmBS,SAAnB,GAA6BC,OAAOC,SAApC;AACAH,aAAKF,aAAL,CAAmBG,SAAnB,GAA6BC,OAAOE,WAApC;;AAEAJ,aAAKR,aAAL,CAAmBa,IAAnB,CAAwBC,EAAxB,CAA2B,OAA3B,EAAmC,UAASC,KAAT,EAAe;AAC9CpB,eAAGqB,GAAH,CAAO,SAAP;AACA,gBAAGN,OAAOC,SAAV,EAAoB;AAChBD,uBAAOC,SAAP,GAAiB,KAAjB;AACH,aAFD,MAEK;AACDD,uBAAOC,SAAP,GAAiB,IAAjB;AACH;AAEJ,SARD;;AAWAH,aAAKF,aAAL,CAAmBO,IAAnB,CAAwBC,EAAxB,CAA2B,OAA3B,EAAmC,UAASC,KAAT,EAAe;AAC9C,gBAAGL,OAAOE,WAAV,EAAsB;AAClBJ,qBAAKJ,UAAL,CAAgBa,MAAhB,GAAuB,IAAvB;AACAP,uBAAOE,WAAP,GAAmB,KAAnB;AACH,aAHD,MAGK;AACDJ,qBAAKJ,UAAL,CAAgBa,MAAhB,GAAuB,IAAvB;AACAP,uBAAOE,WAAP,GAAmB,IAAnB;AACH;AAEJ,SATD;AAUH;;AA/CI,CAAT",
+  "file": "unknown",
+  "sourcesContent": [
+    "cc.Class({\r\n    extends: cc.Component,\r\n\r\n    properties: {\r\n        \r\n        // ...\r\n        musicCheckBox:{\r\n            type:cc.Toggle,\r\n            default:null,\r\n        },\r\n        modelLabel:{\r\n            type:cc.Label,\r\n            default:null,\r\n        },\r\n        modelCheckBox:{\r\n            type:cc.Toggle,\r\n            default:null,\r\n        },\r\n    },\r\n\r\n    // use this for initialization\r\n    onLoad: function () {\r\n        var self=this;\r\n        self.musicCheckBox.isChecked=Global.userMusic;\r\n        self.modelCheckBox.isChecked=Global.userPlayFun;\r\n\r\n        self.musicCheckBox.node.on(\"click\",function(event){\r\n            cc.log(\"onclick\");\r\n            if(Global.userMusic){\r\n                Global.userMusic=false;\r\n            }else{\r\n                Global.userMusic=true;\r\n            }\r\n\r\n        })\r\n\r\n        \r\n        self.modelCheckBox.node.on(\"click\",function(event){\r\n            if(Global.userPlayFun){\r\n                self.modelLabel.string=\"重力\";\r\n                Global.userPlayFun=false;\r\n            }else{\r\n                self.modelLabel.string=\"触摸\";\r\n                Global.userPlayFun=true;\r\n            }\r\n            \r\n        })\r\n    },\r\n   \r\n    // called every frame, uncomment this function to activate update callback\r\n    // update: function (dt) {\r\n\r\n    // },\r\n});\r\n"
+  ]
+}
