@@ -1,6 +1,6 @@
 # Cocos-Creator
 
-### 这里放着我的Cocos creator项目， 到目前来说大概做过三、四个
+### 这里放着我的Cocos creator项目， 到目前来说大概做过三个半
 如果你还不了解<a href="http://www.cocos.com/docs/creator/getting-started/index.html">CocosCreator</a>
 关于所使用的<a href="https://en.wikipedia.org/wiki/Cocos2d">cocos2d-x游戏引擎</a>
 关于我与coco2d-x因为cocos2d-x是C++的框架，所以我一开始学C++（我的入门语言？不知道因该说是Ｃ语言还是C++）,写过一个小游戏，也是我大学第一个学期课程设计。代码貌似也丢了，这算是半个Cocos游戏吧，官方还是非常给力的，就在前天集成了物理引擎推出了1.5
