@@ -1,0 +1,24 @@
+{
+  "appKey": "",
+  "appSecret": "",
+  "excludeScenes": [],
+  "includeAnySDK": false,
+  "includeSdk": [
+    "anysdk"
+  ],
+  "inlineSpriteFrames": true,
+  "mergeStartScene": false,
+  "oauthLoginServer": "",
+  "orientation": {
+    "landscapeLeft": true,
+    "landscapeRight": true,
+    "portrait": false,
+    "upsideDown": false
+  },
+  "packageName": "org.cocos2d.DesktopBackgammon",
+  "privateKey": "",
+  "renderMode": "0",
+  "startScene": "f248193d-fcc0-46ab-9dee-e674a0a19134",
+  "title": "DesktopBackgammon",
+  "webOrientation": "landscape"
+}
